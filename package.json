@@ -1,10 +1,11 @@
 {
   "name": "melkikh-verdaccio-dc",
-  "version": "1.0.0",
+  "version": "99.0.0",
   "description": "Simple POC for https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "echo \"PWNED\""
   },
   "author": "melkikh",
   "license": "ISC"
